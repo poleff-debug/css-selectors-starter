@@ -680,7 +680,7 @@ input[type="submit"]:focus {
 /* ----- */
 #software section a{
     width: 100px;
-    height: auto;
+    height: 100px;
     margin: 0 auto;
     background-color: var(--dv-lime);
     text-decoration: none;
