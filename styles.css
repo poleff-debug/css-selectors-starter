@@ -278,7 +278,7 @@ p {
     select the images and SVGs by tag names
 */
 /* ----- */
-img, svg {
+#image img, svg {
     display: block;
     max-width: 100%;
     height: auto;
