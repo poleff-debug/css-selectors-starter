@@ -280,7 +280,7 @@ p {
 /* ----- */
 img, svg {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -408,7 +408,7 @@ h2.third-h2 {
     select all of the inputs, labels, select dropdowns and text areas on the page by tag name
 */
 /* ----- */
-input {
+input, label, textarea, select {
     display: block;
     width: 95%;
     margin: 0.5rem auto;
