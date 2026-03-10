@@ -680,7 +680,7 @@ input[type="submit"]:focus {
 /* ----- */
 #software section a{
     width: 100px;
-    height: 100px;
+    height: auto;
     margin: 0 auto;
     background-color: var(--dv-lime);
     text-decoration: none;
@@ -842,7 +842,7 @@ table {
     select the third div in the border styling section using the ID, descendant, and class name selectors
 */
 /* ----- */
-#border div.dashed{
+#borders div.dashed{
     width: 200px;
     height: 200px;
     border: 6px dashed var(--dv-yellow);
@@ -854,7 +854,7 @@ table {
     select the fourth div in the pseudo-class styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#border div div div div{
+#borders div div div div{
     width: 150px;
     height: 150px;
     border: 6px double var(--dv-mint);
@@ -866,7 +866,7 @@ table {
     select the last div in the more styling section using the ID, tag name, descendant, and class selectors
 */
 /* ----- */
-#border div div div div div{
+#borders div div div div div{
     width: 100px;
     height: 100px;
     border: 6px inset var(--dv-lt-blue);
