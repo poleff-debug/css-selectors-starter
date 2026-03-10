@@ -280,7 +280,7 @@ p {
 /* ----- */
 img, svg {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -422,7 +422,7 @@ input, label, textarea, select {
     select all of the inputs and selects by tag name
 */
 /* ----- */
-input select{
+input, select{
     height: 2rem;
     border: 2px solid var(--dk-gray);
 }
@@ -529,7 +529,7 @@ button:focus {
     select the h2 in the list styling section using the class name selector
 */
 /* ----- */
-{
+.blue-text {
     color: var(--blue);
 }
 
@@ -539,7 +539,7 @@ button:focus {
     select the unordered list in the list styling container using the id and tag name selectors
 */
 /* ----- */
-{
+#list ul{
     display: block;
     width: fit-content;
     margin: 32px auto;
@@ -551,7 +551,7 @@ button:focus {
     select all of the list items in the list styling container using the ID and tag name selectors
 */
 /* ----- */
-{
+#list li{
     font-size: 1.25rem;
     line-height: 1.35;
     margin-bottom: 8px;
@@ -564,7 +564,7 @@ button:focus {
     select the bullets on the unordered list in the list styling section using the tag name and pseudo-class selectors
 */
 /* ----- */
-{
+#list li::marker{
     font-size: 3rem;
     content: "\2730";
 }
@@ -575,7 +575,7 @@ button:focus {
     select the first list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
-{
+#list li:first-child {
     color: var(--purple);
 }
 
@@ -585,7 +585,7 @@ button:focus {
     select the last list item in the list styling container using the ID, tag name, and pseudo-class selectors
 */
 /* ----- */
-{
+#list li:last-child {
     color: var(--dv-lt-blue);
 }
 
