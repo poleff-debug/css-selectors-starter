@@ -422,7 +422,7 @@ input, label, textarea, select {
     select all of the inputs and selects by tag name
 */
 /* ----- */
-{
+input select{
     height: 2rem;
     border: 2px solid var(--dk-gray);
 }
@@ -433,7 +433,7 @@ input, label, textarea, select {
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
-{
+input:focus{
     outline: 4px solid var(--orange);
     outline-offset: 2px;
     border: none;
@@ -445,7 +445,7 @@ input, label, textarea, select {
     select all of the inputs on focus (by tag name/pseudo-class) on the page
 */
 /* ----- */
-{
+input:focus {
     outline-color: var(--dv-dk-blue);
 }
 
@@ -455,7 +455,7 @@ input, label, textarea, select {
     select the labels in the form using the tag name/element selector
 */
 /* ----- */
-{
+#form label{
     font-size: 1.25rem;
     margin-top: 16px;
 }
@@ -466,7 +466,7 @@ input, label, textarea, select {
     select the spans in the form using the class name selector
 */
 /* ----- */
-{
+#form span{
     font-size: 1.5rem;
     font-weight: bold;
     display: inline;
@@ -479,7 +479,7 @@ input, label, textarea, select {
     select all of the submit buttons (by tag name/type attribute) on the page
 */
 /* ----- */
-{
+button {
     display: block;
     margin: 32px auto 16px;
     width: 100%;
@@ -502,7 +502,7 @@ input, label, textarea, select {
     select all of the submit buttons on hover (by tag name/type attribute name) on the page
 */
 /* ----- */
-{
+button:hover {
     box-shadow: var(--box-shadow-sm);
     color: var(--purple);
     background-color: var(--lt-gray);
@@ -514,7 +514,7 @@ input, label, textarea, select {
     select all of the submit buttons on focus (by tag name/type attribute/pseudo-class) on the page
 */
 /* ----- */
-{
+button:focus {
     box-shadow: var(--box-shadow-sm);
     outline: 4px solid var(--dv-dk-blue);
     outline-offset: 1px;
