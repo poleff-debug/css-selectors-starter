@@ -678,7 +678,7 @@ input[type="submit"]:focus {
     select the links in the software section using the ID, tag name, and child/descendant selector
 */
 /* ----- */
-#software a{
+#software > a{
     width: 100px;
     height: auto;
     margin: 0 auto;
@@ -693,7 +693,7 @@ input[type="submit"]:focus {
     select the links in the software section on hover using the ID, tag name, child/descendant selector, and pseudo-class selector
 */
 /* ----- */
-#software a:hover{
+#software > a:hover{
     background-color: var(--dk-gray);
     box-shadow: var(--box-shadow-sm);
 }
