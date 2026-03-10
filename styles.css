@@ -336,7 +336,7 @@ main section h2:nth-child(2){
     select the unordered list in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-{
+nav ul{
     display: block;
     list-style-type: none;
     padding: 0;
@@ -349,7 +349,7 @@ main section h2:nth-child(2){
     select the list items in the navigation using the tag names and child/descendant selector
 */
 /* ----- */
-{
+nav li{
     display: block;
     width: 100%;
 }
@@ -360,7 +360,7 @@ main section h2:nth-child(2){
     select the anchor tags in the navigation using the tag names and child/descendant selectors
 */
 /* ----- */
-{
+nav a{
     display: block;
     width: 90%;
     margin: 16px auto;
@@ -381,7 +381,7 @@ main section h2:nth-child(2){
     select the anchor tags in the navigation on hover using the tag names, pseudo-class, and child/descendant selectors
 */
 /* ----- */
-{
+nav a:hover{
     background-color: var(--white);
     color: var(--green);
     box-shadow: var(--box-shadow-sm);
@@ -396,7 +396,7 @@ main section h2:nth-child(2){
     select the h2 in the third section using the class name selector
 */
 /* ----- */
-{
+h2.third-h2 {
     padding: 12px 0;
     background-color: var(--dv-fuchsia);
     color: var(--white);
@@ -408,7 +408,7 @@ main section h2:nth-child(2){
     select all of the inputs, labels, select dropdowns and text areas on the page by tag name
 */
 /* ----- */
-{
+input {
     display: block;
     width: 95%;
     margin: 0.5rem auto;
