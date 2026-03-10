@@ -446,7 +446,7 @@ input:focus{
     select the labels in the form using the tag name/element selector
 */
 /* ----- */
-#form label{
+label{
     font-size: 1.25rem;
     margin-top: 16px;
 }
@@ -457,7 +457,7 @@ input:focus{
     select the spans in the form using the class name selector
 */
 /* ----- */
-#form span{
+.required {
     font-size: 1.5rem;
     font-weight: bold;
     display: inline;
